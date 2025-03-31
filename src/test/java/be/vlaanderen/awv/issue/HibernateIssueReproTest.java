@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @Import(TestcontainersConfiguration.class)
 @SpringBootTest
-class HibernateIssueReproTests {
+class HibernateIssueReproTest {
 
     @Autowired
     private PersonRepository personRepository;
